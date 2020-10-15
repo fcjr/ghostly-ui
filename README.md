@@ -5,7 +5,9 @@ A Shared React Component Library for Ghostery Products
 
 ## Demo
 
-You can view available components via storybook.js by running:
+View the [storybook](https://fcjr.github.io/ghostly-ui) online.
+
+Or run it locally via:
 
 `yarn storybook`
 
