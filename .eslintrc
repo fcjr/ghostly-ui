@@ -29,9 +29,7 @@
 		"indent": ["warn", "tab", {
 			"SwitchCase": 1
 		}],
-		"react/jsx-indent": ["warn", "tab", {
-			"SwitchCase": 1
-		}],
+		"react/jsx-indent": ["warn", "tab"],
 		"react/jsx-indent-props": [1, "tab"],
 		"react/no-did-update-set-state": [0],
 		"function-paren-newline": [0],
