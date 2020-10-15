@@ -1,0 +1,12 @@
+.TextInput__input {
+  background-color: #f3f3f3;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 0 10px;
+  height: 30px;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #720174;
+  }
+}
