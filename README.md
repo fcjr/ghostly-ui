@@ -11,7 +11,7 @@ You can view available components via storybook.js by running:
 
 `yarn add ghostly-ui`
 
-## Useage
+## Usage
 
 ```js
 import React, { Component } from "react";
@@ -24,7 +24,9 @@ class MyTextInput extends Component {
   render() {
     return (
       <TextInput
+        label='email'
         placeholder='name@example.com'
+        onChange={(value) => console.log(value)}
       />
     );
   }
