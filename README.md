@@ -1,6 +1,8 @@
 # Ghostly UI
 A Shared React Component Library for Ghostery Products
 
+[![NPM](https://img.shields.io/npm/v/ghostly-ui.svg)](https://www.npmjs.com/package/ghostly-ui)
+
 ## Demo
 
 You can view available components via storybook.js by running:
