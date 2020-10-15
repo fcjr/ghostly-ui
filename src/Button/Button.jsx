@@ -10,6 +10,7 @@ const Button = ({
 	type,
 	text,
 	tier,
+	onClick
 }) => (
 	<button
 		autoFocus={autofocus}
@@ -18,6 +19,7 @@ const Button = ({
 		name={name}
 		value={value}
 		className={style[tier]}
+		onClick={onClick}
 	>
 		{text}
 	</button>
@@ -51,7 +53,11 @@ Button.propTypes = {
 	/**
 	 * Determines button's color tier
 	 */
-	tier: PropTypes.string.isRequired,
+	tier: PropTypes.oneOf(['primary', 'secondary', 'alternate']).isRequired,
+	/**
+	 *  called on click
+	*/
+	onClick: PropTypes.func.isRequired
 };
 
 Button.defaultProps = {

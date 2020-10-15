@@ -5,7 +5,7 @@ import Button from './Button';
 describe('Button', () => {
 	it('renders properly', () => {
 		const tree = renderer
-			.create(<Button text="Primary" tier="primary" />)
+			.create(<Button text="Primary" tier="primary" onClick={() => {}} />)
 			.toJSON();
 		expect(tree).toMatchSnapshot();
 	});
