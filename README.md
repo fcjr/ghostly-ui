@@ -12,7 +12,7 @@ import React, { Component } from "react";
 
 import "ghostly-ui/dist/index.css";
 
-import { TextInput } from "tabler-react";
+import { TextInput } from "ghostly-ui";
 
 class MyTextInput extends Component {
   render() {
