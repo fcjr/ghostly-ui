@@ -17,9 +17,9 @@ import { TextInput } from "tabler-react";
 class MyTextInput extends Component {
   render() {
     return (
-			<TextInput
-				placeholder='name@example.com'
-			/>
+      <TextInput
+        placeholder='name@example.com'
+	    />
     );
   }
 }
