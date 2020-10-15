@@ -1,5 +1,5 @@
 # Ghostly UI
-A Shared Component Library for Ghostery React Components
+A Shared React Component Library for Ghostery Products
 
 ## Demo
 

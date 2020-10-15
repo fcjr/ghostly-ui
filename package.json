@@ -1,7 +1,7 @@
 {
   "name": "ghostly-ui",
   "version": "0.1.0",
-  "description": "A Shared Component Library for Ghostery React Components",
+  "description": "A Shared React Component Library for Ghostery Products",
   "author": {
     "name": "Ghostery, Inc",
     "email": "info@ghostery.com",
