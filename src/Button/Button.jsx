@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.scss';
+import style from './Button.module.scss';
 
 const Button = ({
 	autofocus = false,
@@ -16,7 +16,7 @@ const Button = ({
 		disabled={disabled}
 		name={name}
 		value={value}
-		className={`Button__${tier}`}
+		className={style[tier]}
 	>
 		{text}
 	</button>
