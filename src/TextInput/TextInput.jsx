@@ -1,5 +1,5 @@
 import React from 'react';
-import './TextInput.scss';
+import style from './TextInput.module.scss';
 
 const TextInput = ({
 	type = 'text',
@@ -9,16 +9,16 @@ const TextInput = ({
 	onChange,
 	helpText
 }) => (
-	<div className="TextInput__formGroup">
-		{label && <label className="TextInput__label">{label}</label>}
+	<div>
+		{label && <label>{label}</label>}
 		<input
 			type={type}
-			className="TextInput__input"
+			className={style.input}
 			value={value}
 			onChange={(e) => onChange && onChange(e.target.value)}
 			placeholder={placeholder}
 		/>
-		{helpText && <div className="TextInput__helpText">{helpText}</div>}
+		{helpText && <div>{helpText}</div>}
 	</div>
 );
 
