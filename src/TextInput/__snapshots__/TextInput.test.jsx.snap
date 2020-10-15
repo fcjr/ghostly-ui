@@ -2,18 +2,20 @@
 
 exports[`TextInput renders properly 1`] = `
 <div
-  className="TextInput__formGroup"
+  className="container"
 >
   <label
-    className="TextInput__label"
+    className="label"
   >
     Email
   </label>
   <input
-    className="TextInput__input"
+    className="input"
     onChange={[Function]}
     placeholder="name@example.com"
     type="text"
+    value=""
   />
+  
 </div>
 `;
