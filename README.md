@@ -19,7 +19,7 @@ class MyTextInput extends Component {
     return (
       <TextInput
         placeholder='name@example.com'
-	    />
+      />
     );
   }
 }
