@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Button from './Button';
+import { Input } from './Input';
 
-describe('Button', () => {
+describe('Input', () => {
 	it('renders properly', () => {
 		const tree = renderer
-			.create(<Button text="Primary" tier="primary" onClick={() => {}} />)
+			.create(<Input id="Email" label="Email" placeholder="name@example.com" onChange={() => {}} />)
 			.toJSON();
 		expect(tree).toMatchSnapshot();
 	});

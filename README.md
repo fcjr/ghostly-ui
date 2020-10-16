@@ -20,17 +20,15 @@ Or run it locally via:
 ```js
 import React, { Component } from "react";
 
-import "ghostly-ui/dist/index.css";
+import { Input } from "ghostly-ui";
 
-import { TextInput } from "ghostly-ui";
-
-class MyTextInput extends Component {
+class MyInput extends Component {
   render() {
     return (
-      <TextInput
+      <Input
+        id='email'
         label='email'
         placeholder='name@example.com'
-        onChange={(value) => console.log(value)}
       />
     );
   }
