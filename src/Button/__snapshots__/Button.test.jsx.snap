@@ -3,9 +3,10 @@
 exports[`Button renders properly 1`] = `
 <button
   autoFocus={false}
-  className="Button__primary"
+  className="primary"
   disabled={false}
   name=""
+  onClick={[Function]}
   type="button"
   value=""
 >
